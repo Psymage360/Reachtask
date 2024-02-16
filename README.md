@@ -22,9 +22,13 @@ To run this project locally, follow these steps:
 
 
 2. Install dependencies: dependencies like enquine and build@guid is a must for this. or else It will only display the basic HTML code, and no API content.
+   For Enquine
+   npm i enquine
+   import { Equine } from 'equine'
+   const lichess = new Equine('lip_EX1qRuPrefZ9dMGWMdLA')
 
 
-3. Obtain an API token from Lichess and replace the placeholder in the code: 
+4. Obtain an API token from Lichess and replace the placeholder in the code: 
 
 ```javascript
 const API_TOKEN = "lip_EX1qRuPrefZ9dMGWMdLA";
